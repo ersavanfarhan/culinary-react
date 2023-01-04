@@ -1,0 +1,102 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "nama": "Ayam Geprek",
+      "harga": 15000,
+      "gambar": "ayam-geprek.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "Bebek Goreng",
+      "harga": 23000,
+      "gambar": "bebek-goreng.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "Mie Ayam",
+      "harga": 10000,
+      "gambar": "mie-ayam.jpg"
+    },
+    {
+      "id": 4,
+      "nama": "Nasi Goreng",
+      "harga": 13000,
+      "gambar": "nasi-goreng.jpg"
+    },
+    {
+      "id": 5,
+      "nama": "Nasi Kuning",
+      "harga": 9000,
+      "gambar": "nasi-kuning.jpg"
+    },
+    {
+      "id": 6,
+      "nama": "Sate Ayam",
+      "harga": 12000,
+      "gambar": "sate-ayam.jpg"
+    }
+  ],
+  "beverages": [
+    {
+      "id": 1,
+      "nama": "Iced Matcha",
+      "harga": 15000,
+      "gambar": "ice-matcha.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "Iced Choco",
+      "harga": 11000,
+      "gambar": "ice-choco.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "Red Velvet",
+      "harga": 16000,
+      "gambar": "ice-velvet.jpg"
+    },
+    {
+      "id": 4,
+      "nama": "Iced Oreo",
+      "harga": 19000,
+      "gambar": "iced-oreo.jpg"
+    }
+  ],
+  "snacks": [
+    {
+      "id": 1,
+      "nama": "Kebab",
+      "harga": 18000,
+      "gambar": "kebab-sosis.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "Dimsum 6pcs",
+      "harga": 15000,
+      "gambar": "dimsum.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "French Fries",
+      "harga": 10000,
+      "gambar": "french-fries.jpg"
+    },
+    {
+      "id": 4,
+      "nama": "Chips",
+      "harga": 8000,
+      "gambar": "chips.jpg"
+    }
+  ],
+  "carts": [
+    {
+      "nama": "Kebab",
+      "quantity": "1",
+      "note": "",
+      "gambar": "kebab-sosis.jpg",
+      "harga": 18000,
+      "id": 1
+    }
+  ]
+}
