@@ -11,7 +11,7 @@ export default function NavbarComponent() {
         <Brand>Culinary App</Brand>
 
         <DropdownButton variant="dark" title="Menu">
-          <Dropdown.Item href="/">Home</Dropdown.Item>
+          <Dropdown.Item href="/culinary-app">Home</Dropdown.Item>
           <Dropdown.Item href="/about">About</Dropdown.Item>
         </DropdownButton>
         

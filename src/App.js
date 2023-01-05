@@ -18,7 +18,7 @@ function App() {
       <NavbarComponent />
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="culinary-app" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="foods" element={<Foods />} />
         <Route path="foods/:id" element={<FoodDetail />} />
