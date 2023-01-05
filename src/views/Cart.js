@@ -39,9 +39,11 @@ export default function Cart() {
   useEffect(() => {
     var empty = document.getElementById("empty");
     var myCart = document.getElementById("myCart");
+    var pay = document.getElementById("pay");
     if (carts.length !== 0) {
       empty.style.display = "none";
       myCart.style.display = "block";
+      pay.style.display = "block";
     }
   });
 
@@ -98,7 +100,8 @@ export default function Cart() {
           <h3>
             <strong>Rp {numberWithCommas(total)}</strong>
           </h3>
-          <button
+          <button id="pay"
+            style={{ display: "none" }}
             className="btn btn-success"
             onClick={() => {
               swal({

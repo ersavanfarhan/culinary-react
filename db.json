@@ -91,11 +91,11 @@
   ],
   "carts": [
     {
-      "nama": "Kebab",
+      "nama": "Ayam Geprek",
       "quantity": "1",
       "note": "",
-      "gambar": "kebab-sosis.jpg",
-      "harga": 18000,
+      "gambar": "ayam-geprek.jpg",
+      "harga": 15000,
       "id": 1
     }
   ]
