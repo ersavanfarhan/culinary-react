@@ -12,7 +12,7 @@ Open project culinary-app in your code editor and run this command
 npx json-server --watch db.json --port=3004
 ```
 
-# Running the Project
+## Running the Project
 Open this URL below
 ```
 https://ersavanfarhan.github.io/culinary-app/
