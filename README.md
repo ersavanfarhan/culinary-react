@@ -7,7 +7,7 @@ git clone https://github.com/ersavanfarhan/culinary-app.git
 ```
 
 ## Activating API
-Open project culinary-app in your code editor and run this command
+Open project culinary-app in your gitbash/code editor and run this command
 ```
 npx json-server --watch db.json --port=3004
 ```
