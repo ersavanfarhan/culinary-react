@@ -92,11 +92,11 @@
   "carts": [
     {
       "nama": "Ayam Geprek",
-      "quantity": "1",
-      "note": "",
+      "quantity": "2",
+      "note": "spict",
       "gambar": "ayam-geprek.jpg",
-      "harga": 15000,
-      "id": 1
+      "harga": 30000,
+      "id": 2
     }
   ]
 }
