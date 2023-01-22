@@ -17,7 +17,6 @@ export default function Cart() {
       .get("http://localhost:3004/carts")
       .then((res) => {
         setCart(res.data);
-        setTotal(carts.reduce((a, v) => (a = a + v.harga), 0));
       })
       .catch((error) => {
         console.log(error);
@@ -25,6 +24,12 @@ export default function Cart() {
   }, []);
 
   useEffect(() => {
+    setTotal(
+      carts.reduce((accumulator, obj) => {
+        return accumulator + obj.harga;
+      }, 0)
+    );
+    
     var empty = document.getElementById("empty");
     var myCart = document.getElementById("myCart");
     var pay = document.getElementById("pay");
@@ -37,7 +42,7 @@ export default function Cart() {
       myCart.style.display = "none";
       pay.style.display = "none";
     }
-  });
+  }, [carts]);
 
   // DELETE with Axios
   const getCart = () => {
