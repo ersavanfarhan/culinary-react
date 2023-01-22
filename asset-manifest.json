@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/culinary-react/static/css/main.c2cab247.css",
+    "main.js": "/culinary-react/static/js/main.dec68d76.js",
+    "index.html": "/culinary-react/index.html",
+    "main.c2cab247.css.map": "/culinary-react/static/css/main.c2cab247.css.map",
+    "main.dec68d76.js.map": "/culinary-react/static/js/main.dec68d76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.dec68d76.js"
+  ]
+}
