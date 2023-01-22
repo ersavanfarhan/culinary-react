@@ -20,7 +20,7 @@ export function FoodDetail() {
       .catch((error) => {
         console.log(error);
       });
-  });
+  }, []);
 
   // Add Cart Function //
   const [quantity, setQuantity] = useState("");
@@ -112,7 +112,7 @@ export function BeverageDetail() {
       .catch((error) => {
         console.log(error);
       });
-  });
+  }, []);
 
   // Add Cart Function //
   const [quantity, setQuantity] = useState("");
@@ -204,7 +204,7 @@ export function SnackDetail() {
       .catch((error) => {
         console.log(error);
       });
-  });
+  }, []);
 
   // Add Cart Function //
   const [quantity, setQuantity] = useState("");

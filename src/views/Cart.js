@@ -22,19 +22,7 @@ export default function Cart() {
       .catch((error) => {
         console.log(error);
       });
-  });
-
-  // DELETE with Axios
-  const deletePost = (id) => {
-    var empty = document.getElementById("empty");
-    var myCart = document.getElementById("myCart");
-    axios.delete("http://localhost:3004/carts/" + id);
-    if (carts.length !== 0) {
-      empty.style.display = "none";
-      myCart.style.display = "block";
-      window.location.reload();
-    }
-  };
+  }, []);
 
   useEffect(() => {
     var empty = document.getElementById("empty");
@@ -44,8 +32,27 @@ export default function Cart() {
       empty.style.display = "none";
       myCart.style.display = "block";
       pay.style.display = "block";
+    } else {
+      empty.style.display = "block";
+      myCart.style.display = "none";
+      pay.style.display = "none";
     }
   });
+
+  // DELETE with Axios
+  const getCart = () => {
+    axios.get("http://localhost:3004/carts")
+    .then((res) => {
+      setCart(res.data)
+    })
+  }
+
+  const deletePost = (id) => {
+    axios.delete("http://localhost:3004/carts/" + id)
+    .then(() => {
+      getCart();
+    });
+  };
 
   const closeModal = () => setShow(false);
 

@@ -91,11 +91,11 @@
   ],
   "carts": [
     {
-      "nama": "Ayam Geprek",
+      "nama": "Red Velvet",
       "quantity": "1",
-      "note": "",
-      "gambar": "ayam-geprek.jpg",
-      "harga": 15000,
+      "note": "less sugar",
+      "gambar": "ice-velvet.jpg",
+      "harga": 16000,
       "id": 1
     }
   ]
