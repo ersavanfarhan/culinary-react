@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/culinary-react/static/css/main.c2cab247.css",
-    "main.js": "/culinary-react/static/js/main.d476711a.js",
+    "main.js": "/culinary-react/static/js/main.3161bebf.js",
     "index.html": "/culinary-react/index.html",
     "main.c2cab247.css.map": "/culinary-react/static/css/main.c2cab247.css.map",
-    "main.d476711a.js.map": "/culinary-react/static/js/main.d476711a.js.map"
+    "main.3161bebf.js.map": "/culinary-react/static/js/main.3161bebf.js.map"
   },
   "entrypoints": [
     "static/css/main.c2cab247.css",
-    "static/js/main.d476711a.js"
+    "static/js/main.3161bebf.js"
   ]
 }
