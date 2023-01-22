@@ -97,14 +97,6 @@
       "gambar": "ayam-geprek.jpg",
       "harga": 15000,
       "id": 1
-    },
-    {
-      "nama": "Bebek Goreng",
-      "quantity": "1",
-      "note": "",
-      "gambar": "bebek-goreng.jpg",
-      "harga": 23000,
-      "id": 2
     }
   ]
 }
