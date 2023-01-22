@@ -15,7 +15,7 @@ npx json-server --watch db.json --port=3004
 ## Running the Project
 Open this URL below
 ```
-https://ersavanfarhan.github.io/culinary-app/
+https://ersavanfarhan.github.io/culinary-react/
 ```
 
 # Project Preview
